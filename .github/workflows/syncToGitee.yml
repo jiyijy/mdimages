@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror the Github organization repos to Gitee.
-        uses: yuanpeiliao@qq.com
+        uses: liao/mdimages@main
         with:
           src: 'github/jiyijy'
           dst: 'gitee/c4code'
